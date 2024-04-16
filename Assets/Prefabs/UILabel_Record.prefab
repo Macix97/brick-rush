@@ -10,19 +10,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
       propertyPath: m_text
-      value: User already exists!
+      value: New Record!
       objectReference: {fileID: 0}
     - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
       propertyPath: m_fontSize
-      value: 60
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
-      propertyPath: m_fontSizeMin
-      value: 60
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.41568628
+      objectReference: {fileID: 0}
+    - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4293249605
+      value: 4278217471
       objectReference: {fileID: 0}
     - target: {fileID: 3628695487005392825, guid: ec80f65e364c9764a830990313874452, type: 3}
       propertyPath: m_Pivot.x
@@ -106,38 +114,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7157340832030927316, guid: ec80f65e364c9764a830990313874452, type: 3}
       propertyPath: m_Name
-      value: UILabel_Fail 1
+      value: UILabel_Record
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7157340832030927316, guid: ec80f65e364c9764a830990313874452, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1884502874794211032}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec80f65e364c9764a830990313874452, type: 3}
---- !u!1 &5273748981158618385 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7157340832030927316, guid: ec80f65e364c9764a830990313874452, type: 3}
-  m_PrefabInstance: {fileID: 3054537108427607237}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1884502874794211032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5273748981158618385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: -1
-  m_MinHeight: -1
-  m_PreferredWidth: 800
-  m_PreferredHeight: 108
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 1

@@ -34,27 +34,27 @@ public class FirebaseManager : MonoBehaviourPersistentSingleton<FirebaseManager>
         databaseReference.ValueChanged -= OnDatabaseValueChanged;
     }
 
-    public static void CheckIsUserAsync(Action<bool> callback)
+    public static void CheckIsUserAsync(Action<bool> callback = null)
     {
         Instance.StartCoroutine(Instance.OnCheckingUser(callback));
     }
 
-    public static void CreateAccountAsync(string userName, Action<bool> callback)
+    public static void CreateAccountAsync(string userName, Action<bool> callback = null)
     {
         Instance.StartCoroutine(Instance.OnCreatingAccount(userName, callback));
     }
 
-    public static void GetAllUsersAsync(List<FirebaseUser> users, Action callback)
+    public static void GetAllUsersAsync(List<FirebaseUser> users, Action callback = null)
     {
         Instance.StartCoroutine(Instance.OnGettingAllUsers(users, callback));
     }
 
-    public static void GetUserScoreAsync(Action<int> callback)
+    public static void GetUserScoreAsync(Action<int> callback = null)
     {
         Instance.StartCoroutine(Instance.OnGettingUserScore(callback));
     }
 
-    public static void SetUserScoreAsync(int score, Action<bool> callback)
+    public static void SetUserScoreAsync(int score, Action<bool> callback = null)
     {
         Instance.StartCoroutine(Instance.OnSettingUserScore(score, callback));
     }

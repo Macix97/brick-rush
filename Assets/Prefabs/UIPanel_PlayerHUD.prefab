@@ -135,8 +135,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 5326419703056050410}
     m_Modifications:
     - target: {fileID: 1048669239273577193, guid: e48d42f13e1a478429e15bc4513f2b34, type: 3}
+      propertyPath: m_text
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048669239273577193, guid: e48d42f13e1a478429e15bc4513f2b34, type: 3}
       propertyPath: m_fontSize
       value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262235859805344377, guid: e48d42f13e1a478429e15bc4513f2b34, type: 3}
+      propertyPath: m_ChildAlignment
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3325237161161748928, guid: e48d42f13e1a478429e15bc4513f2b34, type: 3}
       propertyPath: m_AnchorMax.y
@@ -161,6 +169,10 @@ PrefabInstance:
     - target: {fileID: 3325237161161748928, guid: e48d42f13e1a478429e15bc4513f2b34, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601850637883879853, guid: e48d42f13e1a478429e15bc4513f2b34, type: 3}
+      propertyPath: m_text
+      value: 'Score:'
       objectReference: {fileID: 0}
     - target: {fileID: 5601850637883879853, guid: e48d42f13e1a478429e15bc4513f2b34, type: 3}
       propertyPath: m_fontSize

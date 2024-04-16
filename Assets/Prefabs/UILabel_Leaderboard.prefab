@@ -9,8 +9,46 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
+      propertyPath: m_text
+      value: '1. User1: 20
+
+        2. User2: 19
+
+        3. User3: 18
+
+        4.
+        User4: 17
+
+        5. User5: 16
+
+        6. User6: 15
+
+        7. User7:
+        14
+
+        8. User8: 13
+
+        9. User9: 12
+
+        10. User10: 11
+
+        11.
+        User11: 10
+
+        12. User12: 9
+
+        13. User13: 8
+
+        14. User14:
+        7
+
+        15. User15: 6
+
+        16. User16: 5'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
       propertyPath: m_fontSize
-      value: 70.4
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
       propertyPath: m_fontColor.b
@@ -26,7 +64,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
       propertyPath: m_fontSizeMax
-      value: 75
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
       propertyPath: m_fontSizeMin
@@ -34,7 +72,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4289111718
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3628695487005392825, guid: ec80f65e364c9764a830990313874452, type: 3}
       propertyPath: m_Pivot.x

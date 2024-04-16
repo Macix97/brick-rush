@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-// TODO: New score text
 // TODO: Leaderboard scroll view
 public class GameManager : MonoBehaviourPersistentSingleton<GameManager>
 {
@@ -20,6 +19,7 @@ public class GameManager : MonoBehaviourPersistentSingleton<GameManager>
     public static bool IsUserChecked { get => Instance.isUserChecked; private set => Instance.isUserChecked = value; }
 
     public static event Action OnUpdate;
+    public static event Action<int> OnNewGameRecord;
     public static event Action<float> OnTimeScaleChanged;
 
 #if UNITY_EDITOR
@@ -187,6 +187,12 @@ public class GameManager : MonoBehaviourPersistentSingleton<GameManager>
                 SetState(GameState.Play);
                 break;
             case GameState.GameOver:
+                FirebaseManager.GetUserScoreAsync(score =>
+                {
+                    if (LevelManager.Score > score)
+                        OnNewGameRecord?.Invoke(LevelManager.Score);
+                    FirebaseManager.SetUserScoreAsync(LevelManager.Score);
+                });
                 UIManager.OpenWindow<GameOverWindow>();
                 break;
             case GameState.Pause:

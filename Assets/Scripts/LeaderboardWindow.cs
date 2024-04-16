@@ -8,7 +8,8 @@ public class LeaderboardWindow : UIWindow
 {
     [SerializeField] private string displayFormat = "{0}. {1}: {2}";
     [SerializeField] private Button backButton;
-    [SerializeField] private TextMeshProUGUI userText;
+    [SerializeField] private TextMeshProUGUI playerText;
+    [SerializeField] private TextMeshProUGUI userCountText;
     [SerializeField] private TextMeshProUGUI leaderboardText;
 
     private readonly StringBuilder stringBuilder = new();
@@ -17,7 +18,8 @@ public class LeaderboardWindow : UIWindow
     protected override void Awake()
     {
         base.Awake();
-        userText.text = string.Empty;
+        playerText.text = string.Empty;
+        userCountText.text = string.Empty;
         leaderboardText.text = string.Empty;
         backButton.onClick.AddListener(() => GameManager.SetState(GameState.MainMenu));
     }
@@ -52,9 +54,10 @@ public class LeaderboardWindow : UIWindow
             {
                 string userData = string.Format(displayFormat, count - i, users[i].Name, users[i].Score);
                 if (users[i].Name == FirebaseManager.UserData.Name)
-                    userText.text = userData;
+                    playerText.text = userData;
                 stringBuilder.AppendLine(userData);
             }
+            userCountText.text = count.ToString();
             leaderboardText.text = stringBuilder.ToString();
         });
     }
