@@ -51,10 +51,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 32
+    m_Left: 64
     m_Right: 0
     m_Top: 0
-    m_Bottom: 32
+    m_Bottom: 64
   m_ChildAlignment: 4
   m_Spacing: 32
   m_ChildForceExpandWidth: 0
@@ -78,7 +78,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
       propertyPath: m_fontSize
-      value: 76.6
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
       propertyPath: m_fontColor.b
@@ -220,7 +220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
       propertyPath: m_fontSize
-      value: 76.6
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
       propertyPath: m_fontColor.b

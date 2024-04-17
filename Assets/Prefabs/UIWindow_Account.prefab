@@ -92,6 +92,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7244659659850779569, guid: 3e0b726965a0b084f8467f45e2884300, type: 3}
+      propertyPath: m_fontSize
+      value: 80
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -427,13 +431,13 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1658696796197252536, guid: c5a06d309bea82d47a8b0bdac5028e7d, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 138711984223125622}
+    - targetCorrespondingSourceObject: {fileID: 1658696796197252536, guid: c5a06d309bea82d47a8b0bdac5028e7d, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 3621540017453281689}
     - targetCorrespondingSourceObject: {fileID: 1658696796197252536, guid: c5a06d309bea82d47a8b0bdac5028e7d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5278001381103742516}
-    - targetCorrespondingSourceObject: {fileID: 1658696796197252536, guid: c5a06d309bea82d47a8b0bdac5028e7d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 138711984223125622}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3537022944153408284, guid: c5a06d309bea82d47a8b0bdac5028e7d, type: 3}
       insertIndex: -1

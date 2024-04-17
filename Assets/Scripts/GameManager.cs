@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-// TODO: Leaderboard scroll view
 public class GameManager : MonoBehaviourPersistentSingleton<GameManager>
 {
     [SerializeField] private GameSettings settings;
@@ -98,6 +97,9 @@ public class GameManager : MonoBehaviourPersistentSingleton<GameManager>
             case GameState.Pause:
             case GameState.GameOver:
                 LoadMainMenu();
+                break;
+            case GameState.Leaderboard:
+                SetState(GameState.MainMenu);
                 break;
             default:
                 QuitGame();
@@ -200,6 +202,7 @@ public class GameManager : MonoBehaviourPersistentSingleton<GameManager>
                 UIManager.OpenWindow<PauseWindow>();
                 break;
             case GameState.CreateAccount:
+                UIManager.CloseWindow<ConnectingWindow>();
                 UIManager.OpenWindow<AccountWindow>();
                 break;
             case GameState.MainMenu:

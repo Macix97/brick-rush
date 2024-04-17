@@ -13,6 +13,7 @@ public class FirebaseManager : MonoBehaviourPersistentSingleton<FirebaseManager>
     private string userID;
     private FirebaseUser userData;
     private DatabaseReference databaseReference;
+    private readonly Dictionary<string, object> userDictionary = new();
 
     public static string UserID => Instance.userID;
     public static FirebaseUser UserData => Instance.userData;
@@ -69,10 +70,9 @@ public class FirebaseManager : MonoBehaviourPersistentSingleton<FirebaseManager>
         }
         else
         {
-            Task voidTask = UsersReference.SetValueAsync(userData.ToDictionary());
+            userData.SetName(userName);
+            Task voidTask = UsersReference.Child(UserID).SetValueAsync(userData.GetDictionary(userDictionary));
             yield return CoroutineUtils.WaitForCompletion(voidTask);
-            if (voidTask.IsCompletedSuccessfully)
-                userData.SetName(userName);
             callback?.Invoke(voidTask.IsCompletedSuccessfully);
         }
     }

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id">
+  <string name="firebase_database_url" translatable="false">https://brick-rush-97-default-rtdb.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">983186118519</string>
+  <string name="google_storage_bucket" translatable="false">brick-rush-97.appspot.com</string>
+  <string name="project_id" translatable="false">brick-rush-97</string>
+  <string name="google_api_key" translatable="false">AIzaSyAc1U_5QRUPhgVc8eVs6zQ1yuKFCMPwBik</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAc1U_5QRUPhgVc8eVs6zQ1yuKFCMPwBik</string>
+  <string name="google_app_id" translatable="false">1:983186118519:android:91cd7f062f8b6c589cf372</string>
+</resources>

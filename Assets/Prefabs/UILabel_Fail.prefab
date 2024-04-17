@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
       propertyPath: m_fontSize
-      value: 65
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
       propertyPath: m_fontColor.b
@@ -31,6 +31,10 @@ PrefabInstance:
     - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
       propertyPath: m_fontSizeMin
       value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 1365635054029132944, guid: ec80f65e364c9764a830990313874452, type: 3}
       propertyPath: m_enableAutoSizing
@@ -152,8 +156,8 @@ MonoBehaviour:
   m_IgnoreLayout: 0
   m_MinWidth: -1
   m_MinHeight: -1
-  m_PreferredWidth: 800
-  m_PreferredHeight: 108
+  m_PreferredWidth: 1024
+  m_PreferredHeight: 128
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1

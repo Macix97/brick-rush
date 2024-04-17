@@ -8,6 +8,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2463358601013248960, guid: 404ea8a57650a0b4b9b06b8839c77250, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -32
+      objectReference: {fileID: 0}
+    - target: {fileID: 2463358601013248960, guid: 404ea8a57650a0b4b9b06b8839c77250, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 32
+      objectReference: {fileID: 0}
     - target: {fileID: 2740051841024601787, guid: 404ea8a57650a0b4b9b06b8839c77250, type: 3}
       propertyPath: m_Name
       value: UIPanel_PlayerHUD

@@ -27,13 +27,12 @@ public struct FirebaseUser : IComparable
         score = int.Parse(dictionary[ScoreKey].ToString());
     }
 
-    public readonly Dictionary<string, object> ToDictionary()
+    public readonly Dictionary<string, object> GetDictionary(Dictionary<string, object> dictionary)
     {
-        return new Dictionary<string, object>()
-        {
-            { NameKey, Name },
-            { ScoreKey, Score },
-        };
+        dictionary.Clear();
+        dictionary.Add(NameKey, Name);
+        dictionary.Add(ScoreKey, Score);
+        return dictionary;
     }
 
     public void SetName(string name)
