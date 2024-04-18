@@ -20,21 +20,13 @@ The list below presents most important properties:
 
 ### The pictures below show the most important aspects of the program:
 
-<div style="text-align: center;">
-    <img width="100%" src="/Media/SplashScreen.png">
-</div>
+![Splash Screen](./Media/SplashScreen.png)
 
-<div style="text-align: center;">
-    <img width="100%" src="/Media/Gameplay.png)">
-</div>
+![Gameplay](./Media/Gameplay.png)
 
-<div style="text-align: center;">
-    <img width="100%" src="/Media/Leaderboard.png)">
-</div>
+![Leaderboard](./Media/Leaderboard.png)
 
-<div style="text-align: center;">
-    <img width="100%" src="/Media/GameOver.png)">
-</div>
+![Game Over](./Media/GameOver.png)
 
 ## Used technologies
 
