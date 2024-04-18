@@ -20,13 +20,13 @@ The list below presents most important properties:
 
 ### The pictures below show the most important aspects of the program:
 
-![Splash Screen](./Media/SplashScreen.jpg)
+![Splash Screen](./Media/SplashScreen.png)
 
-![Gameplay](./Media/Gameplay.jpg)
+![Gameplay](./Media/Gameplay.png)
 
-![Leaderboard](./Media/Leaderboard.jpg)
+![Leaderboard](./Media/Leaderboard.png)
 
-![Game Over](./Media/GameOver.jpg)
+![Game Over](./Media/GameOver.png)
 
 ## Used technologies
 
